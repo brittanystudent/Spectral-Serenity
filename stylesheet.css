@@ -270,7 +270,7 @@ body {
   }
 
 input[type=text], select, textarea {
-  width: 400px; 
+  max-width: 400px; 
   padding: 12px; 
   border: 1px solid #FEFAE0; 
   border-radius: 4px; 
@@ -299,7 +299,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #61674e8a;
   padding: 20px;
-  width: 400px;
+  max-width: 400px;
   border-style: solid;
   border-width: 1px;
   border-color: #FEFAE0;
