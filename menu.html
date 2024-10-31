@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="stylesheet.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu-Spectral Serenity</title>
+</head>
+<body>
+
+    <div class="topnav">
+        <a href="index.html" class="active"> <img class="logo" src="images/ss logo.png"> </a>
+        <div id="myLinks">
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+          <a href="services.html"> Services </a>
+          <a href="menu.html"> Menu </a>
+          <a href="shop.html"> Shop </a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"><img src="images/burger.png"></i>
+        </a>
+      
+      </div>
+      
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
+
+<div class="fonttitle"> Deadly Dining </div>
+
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="images/dinner1 1.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="images/dinner2 1.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="images/dinner3 1.png" style="width:100%">
+    </div>
+    
+    </div>
+    <br>
+    
+    
+    <div style="text-align:center">
+      <span class="dot" style="opacity: 0;"></span> 
+      <span class="dot" style="opacity: 0;"></span> 
+      <span class="dot" style="opacity: 0;"></span> 
+    </div>
+    
+    <script>
+    let slideIndex = 0;
+    showSlides();
+    
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {slideIndex = 1}    
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 5000);
+    }
+    </script>
+
+    <p>
+        Indulge in these delightfully dreadful dishes for a meal that’s 
+        both hauntingly delicious and unforgettable!
+    </p>
+
+    <br>
+
+    <hr>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            <b>Lunch</b>
+        </span>
+    </div>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Ghastly Grilled Cheese
+        </span>
+    </div>
+    <p>
+        A blend of aged cheddar and perilous 
+        pepper jack, served on black charcoal bread, with a side of twisted tomato bisque.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Phantom Pesto Pasta
+        </span>
+    </div>
+    <p>
+        Fettuccine tossed in a vibrant basil pesto, topped with roasted cherry 
+        tomatoes and graven garlic bread.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Skeletal Salad
+        </span>
+    </div>
+    <p>
+        A mix of arugula, candied pecans, and cranberries, drizzled with a  
+        balsamic reduction, served with a slice of ghostly goat cheese.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Creepy Curry Wrap
+        </span>
+    </div>
+    <p>
+        Curried chicken or chickpeas wrapped in a ghostly spinach tortilla, 
+        accompanied by a side of chilling cucumber salad.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Mummified Meatballs
+        </span>
+    </div>
+    <p>
+        Savory meatballs wrapped in flaky pastry, served with a side of “bloody” 
+        marinara dipping sauce.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Banished Beet Burger
+        </span>
+    </div>
+    <p>
+        A vibrant beet and black bean patty topped with ancient avocado aioli, served 
+        on a spooky sesame seed bun.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Spectral Sushi Rolls
+        </span>
+    </div>
+    <p>
+        Assorted sushi rolls with an eerie twist, featuring black rice, ghost shrimp, 
+        and avocado, served with wasabi and “blood” soy sauce.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Eerie Eggplant Parmesan
+        </span>
+    </div>
+    <p>
+        Layers of baked eggplant, marinara, and mystical mozzarella, served with gory 
+        garlic knots.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Wailing Wild Rice Bowls
+        </span>
+    </div>
+    <p>
+        A hearty bowl of wild rice topped with roasted seasonal vegetables, pumpkin seeds, 
+        and a drizzle of sage-infused oil.
+    </p>
+    <br>
+
+    <hr>
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            <b>Dinner</b>
+        </span>
+    </div>
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Banshee's Bounty Soup
+        </span>
+    </div>
+    <p>
+        A rich, creamy butternut squash soup with a swirl of ghost pepper oil, served with 
+        toasted pumpkin seeds.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Cursed Cauliflower Steak
+        </span>
+    </div>
+    <p>
+        Grilled cauliflower steak marinated in a smoky spice blend, served over a bed 
+        of charred kale and drizzled with tahini ghost sauce.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Wicked Wild Mushroom Risotto
+        </span>
+    </div>
+    <p>
+        Arborio rice cooked to perfection with wild mushrooms, truffle oil, and finished with 
+        a sprinkle of haunted herb dust.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Spectral Seafood Platter
+        </span>
+    </div>
+    <p>
+        A chilling selection of blackened scallops, ghost shrimp, and calamari, 
+        served with a side of eerie lemon-dill aioli.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Ghastly Grilled Chicken
+        </span>
+    </div>
+    <p>
+        Herb-marinated chicken breast grilled to perfection, served with a dark 
+        cherry reduction and accompanied by ghostly garlic mashed potatoes.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Haunted Herb-Crusted Lamb Chops
+        </span>
+    </div>
+    <p>
+        Tender lamb chops encrusted with a blend of haunted herbs, served with 
+        roasted root vegetables and a sanguine red wine reduction.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Macabre Vegetable Medley
+        </span>
+    </div>
+    <p>
+        A haunting assortment of seasonal roasted vegetables, tossed in a balsamic 
+        glaze and served with a side of quinoa.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Phantom Filet Mignon
+        </span>
+    </div>
+    <p>
+        A perfectly seared filet mignon topped with a blue cheese butter, served 
+        alongside creepy asparagus and truffle fries.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            With's Brew Pasta
+        </span>
+    </div>
+    <p>
+        Squid ink linguine tossed with garlic shrimp, cherry tomatoes, and a 
+        hint of chili, garnished with fresh basil.
+    </p>
+    <br>
+    <hr>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            <b>Dessert</b>
+        </span>
+    </div>
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Mythical Mousse
+        </span>
+    </div>
+    <p>
+        A rich dark chocolate mousse topped with whimsical whipped cream and a sprinkle 
+        of edible glitter, served in a miniature cauldron.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Cadaverous Cheesecake
+        </span>
+    </div>
+    <p>
+        Creamy vanilla cheesecake with a graham cracker crust, adorned with 
+        ghost-shaped meringue and a drizzle of berry coulis.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Spider Web Panna Cotta
+        </span>
+    </div>
+    <p>
+        Silky panna cotta infused with vanilla and coconut, finished with a 
+        dark chocolate spiderweb design and a side of passion fruit sauce.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Graveyard Dirt Cups
+        </span>
+    </div>
+    <p>
+        Layers of chocolate pudding and crushed cookies, topped with gummy 
+        worms and a mini tombstone cookie for a spooky twist.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Blood Orange Sorbet
+        </span>
+    </div>
+    <p>
+        Refreshing sorbet made from blood oranges, served in a carved-out 
+        jack-o-lantern orange half for a chilling presentation.
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Mummified Cupcakes
+        </span>
+    </div>
+    <p>
+        Vanilla cupcakes with white chocolate frosting, decorated with chocolate 
+        drizzle “bandages” and candy eyes peeking out.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Sinister Spice Cookies
+        </span>
+    </div>
+    <p>
+        Soft gingerbread cookies shaped like ghosts and bats, decorated with 
+        royal icing in haunting colors.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Creepy Caramel Tart
+        </span>
+    </div>
+    <p>
+        A buttery tart filled with rich caramel, topped with sea salt and a dark chocolate 
+        ganache, garnished with a sprig of mint.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Perilous Parfait
+        </span>
+    </div>
+    <p>
+        Layers of black cherry compote, vanilla yogurt, and crushed cookies, served 
+        in a ghoulish glass with a ghostly garnish.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Dark Chocolate Blood Orange Truffles
+        </span>
+    </div>
+    <p>
+        Decadent dark chocolate truffles infused with blood orange flavor, dusted 
+        with cocoa powder and served with a side of “blood” raspberry sauce.
+    </p>
+    <br>
+    <hr>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            <b>Cocktails</b>
+        </span>
+    </div>
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Witch's Brew
+        </span>
+    </div>
+    <p>
+        A bewitching blend of vodka, blue curaçao, and lemon-lime soda, garnished 
+        with a frog and a splash of dry ice for a smoky effect.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Vampire's Kiss
+        </span>
+    </div>
+    <p>
+        A seductive mix of pomegranate juice, vodka, and a hint of lime, served in 
+        a glass rimmed with red sugar and garnished with a blood orange slice.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Murder Martini
+        </span>
+    </div>
+    <p>
+        A hauntingly smooth blend of gin, elderflower liqueur, and a splash of tonic, 
+        served with a ghostly white candy garnish.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Zombie Apocalypse
+        </span>
+    </div>
+    <p>
+        A potent mix of rum, apricot brandy, pineapple juice, and grenadine, 
+        garnished with a slice of fresh pineapple and a cherry.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Creepy Cosmo
+        </span>
+    </div>
+    <p>
+        A spooky twist on the classic cosmopolitan, featuring vodka, cranberry juice, 
+        and a dash of black raspberry liqueur, served with a floating black raspberry.
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Sinister Sangria
+        </span>
+    </div>
+    <p>
+        A dark and delicious blend of red wine, brandy, and seasonal fruits, 
+        spiced with cinnamon and served over ice.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Blood Moon Margarita
+        </span>
+    </div>
+    <p>
+        A vibrant blend of tequila, blood orange juice, and lime, served with a 
+        black salt rim and garnished with a slice of blood orange.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Phantom Fizz
+        </span>
+    </div>
+    <p>
+        A refreshing concoction of gin, tonic, and a splash of elderflower syrup, 
+        topped with fresh mint and served in a spooky glass.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Haunted Highball
+        </span>
+    </div>
+    <p>
+        A chilling mix of bourbon, ginger ale, and a dash of bitters, garnished with 
+        a twist of lemon and a sprig of rosemary.
+    </p>
+    <br>
+
+    <div style="text-align: center; margin: 20px;">
+        <span style="font-family: analogist; font-size: 16px; color: #FEFAE0;">
+            Cursed Cider
+        </span>
+    </div>
+    <p>
+        Warm spiced apple cider mixed with dark rum and a hint of cinnamon, served in 
+        a mug with a cinnamon stick for stirring.
+    </p>
+
+    
+</body>
+<footer>
+    <div class="foot">
+    <table class="table1" style="width:100%">
+      <tr>
+        <td> <img class="footlogo" src="images/Spectral Serenity.png"> 
+            <img class="footicon" src="images/Facebook.png">
+            <img class="footicon" src="images/twittericon.png">
+            <img class="footicon" src="images/instaicon.png">
+      </td>
+      </tr>
+      <tr>
+        <td style="font-size: 10px; width: 100px;"> At Spectral Serenity, our purpose is to create a sanctuary where spirits—both living
+           and beyond—can find solace, rejuvenation, and connection. We believe in the power of 
+           self-care to transcend the physical realm, offering a unique space for relaxation and 
+           healing. Our treatments are designed to harmonize the energies of the body and spirit, 
+           allowing each guest to release burdens and embrace their true essence.
+          </td>
+      </tr>
+  
+  
+    </table>
+  
+    <table class="table2" style="width:100%">
+      <tr>
+        <td><b>About</b></td>
+        <td><b>Socials</b></td>
+      </tr>
+      <tr style="font-size: 10px;">
+        <td><a href="faq.html">FAQs</a></td>
+        <td> Instagram </td>
+      </tr>
+  
+      <tr style="font-size: 10px;">
+        <td><a href="press.html">Press</a></td>
+      <td> Twitter </td>
+      </tr>
+  
+      <tr style="font-size: 10px;">
+        <td> <a href="contact.html">Contact Us</a></td>
+        <td> Face-boo-k </td>
+      </tr>
+  
+    </table>
+    </div>
+  
+    <hr>
+  
+    <div class="copyright">
+        ©2024 Spectral Serenity. All Rights Reserved 
+        <a href="privacy.html">
+        <span style="margin-left: 10px;">
+          Privacy Policy
+        </span> 
+        </a>
+        <a href="terms.html">
+        <span style="margin-left: 10px;">
+          Terms & Conditions
+        </span>
+        </a>
+      </div>
+  
+  </footer>
+</html>
